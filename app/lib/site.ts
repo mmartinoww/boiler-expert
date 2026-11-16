@@ -3,7 +3,7 @@
  * Change the domain with NEXT_PUBLIC_SITE_URL (or the fallback below) and the phone in PHONE_*.
  * Everything else (metadata, JSON-LD, sitemap, robots, llms.txt, canonical URLs) derives from here.
  */
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://boiler-man.net").replace(/\/+$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://boiler-expert.net").replace(/\/+$/, "");
 export const SITE_NAME = "Бойлер-Мен";
 export const BUSINESS_FULL_NAME = "Бойлер-Мен - Ремонт на бойлери в София и Пазарджик";
 export const OG_IMAGE_SRC = "/opengraph-image";

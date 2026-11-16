@@ -21,7 +21,7 @@ Stack: Next.js (App Router, Turbopack), React, Tailwind CSS v4, TypeScript. Lang
 | Saturday | Only by prior arrangement, at a higher price |
 | Not repaired | Instant-flow (проточни) and gas boilers |
 | Hours | Пон–Съб · 08:00 – 19:00 |
-| Planned domain | `boiler-man.net` (not registered yet) |
+| Planned domain | `boiler-expert.net` (not registered yet) |
 | Google Business Profile | Not created yet |
 | Technician name/photo | Intentionally not shown |
 
@@ -42,7 +42,7 @@ npm run build && npm start
 
 | Variable | Purpose |
 |---|---|
-| `NEXT_PUBLIC_SITE_URL` | Production origin (default fallback `https://boiler-man.net`). Drives canonicals, sitemap, JSON-LD, OG tags. |
+| `NEXT_PUBLIC_SITE_URL` | Production origin (default fallback `https://boiler-expert.net`). Drives canonicals, sitemap, JSON-LD, OG tags. |
 | `GOOGLE_SITE_VERIFICATION` | Optional. Adds the Search Console verification meta tag in `layout.tsx`. |
 
 > Build note: when `node_modules` is a junction/symlink, `next build` can fail (Turbopack and webpack). Building with a regular local `node_modules` works.
@@ -286,7 +286,7 @@ Hub → both cities, services index, top posts. City pages ↔ each other, all s
 | Repair examples | Photos to be provided in `public/img/` (folder not created yet) |
 | Technician name/photo | Not needed |
 | GBP / social | No business profile yet |
-| Domain | Not created yet; most likely `boiler-man.net` |
+| Domain | Not created yet; most likely `boiler-expert.net` |
 
 ### 10.9 Build phases and status
 | Phase | Status |

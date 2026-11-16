@@ -144,14 +144,14 @@ export function SiteHeader({ brandName, phoneHref, phoneLabel }: SiteHeaderProps
             <Link href={homeHref} className="site-header__brand" aria-label={brandName} onClick={handleBrandClick}>
               <img
                 className="site-header__logoMark"
-                src="/identity/BOILER-MAN-LOGO-IMG.svg"
+                src="/identity/BOILER-EXPERT-LOGO-IMG.svg"
                 alt=""
                 width="48"
                 height="44"
               />
               <img
                 className="site-header__logoText"
-                src="/identity/BOILER-MAN-LOGO-TEXT.svg"
+                src="/identity/BOILER-EXPERT-LOGO-TEXT.svg"
                 alt=""
                 width="156"
                 height="30"

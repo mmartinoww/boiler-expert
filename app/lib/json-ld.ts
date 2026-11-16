@@ -43,7 +43,7 @@ export function businessNode(): JsonLdObject {
     description: business.description,
     url: `${SITE_URL}/`,
     telephone: PHONE_E164,
-    logo: { "@type": "ImageObject", url: `${SITE_URL}/identity/BOILER-MAN-LOGO-IMG.svg` },
+    logo: { "@type": "ImageObject", url: `${SITE_URL}/identity/BOILER-EXPERT-LOGO-IMG.svg` },
     image: `${SITE_URL}${OG_IMAGE_SRC}`,
     priceRange: "€€",
     currenciesAccepted: "EUR, BGN",
